@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  show = false;
+  arrs: any[] = [];
+
+  pushArr() {
+    this.arrs.push({
+      time: Date(),
+      state: this.show
+    });
+  }
 }
