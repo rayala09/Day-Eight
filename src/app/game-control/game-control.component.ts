@@ -12,7 +12,7 @@ export class GameControlComponent implements OnInit {
 
 disableBtn = false;
 
-  @Output() numberCreated = new EventEmitter<number>;
+  @Output() numberCreated = new EventEmitter<number>();
 
 
   start() {
